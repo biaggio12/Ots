@@ -186,3 +186,4 @@ npcHandler:setMessage(MESSAGE_FAREWELL, 'Good bye, |PLAYERNAME|!')
 npcHandler:setMessage(MESSAGE_GREET, 'Greetings, |PLAYERNAME|!')
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
 npcHandler:addModule(FocusModule:new())
+

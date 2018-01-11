@@ -2,12 +2,12 @@
 -- NOTE: valid values for worldType are: "pvp", "no-pvp" and "pvp-enforced"
 worldType = "pvp"
 hotkeyAimbotEnabled = true
-protectionLevel = 7
+protectionLevel = 40
 pzLocked = 60 * 1000
-removeChargesFromRunes = true
-removeChargesFromPotions = true
-removeWeaponAmmunition = true
-removeWeaponCharges = true
+removeChargesFromRunes = false
+removeChargesFromPotions = false
+removeWeaponAmmunition = false
+removeWeaponCharges = false
 timeToDecreaseFrags = 24 * 60 * 60 * 1000
 whiteSkullTime = 15 * 60 * 1000
 stairJumpExhaustion = 2 * 1000
@@ -22,7 +22,7 @@ orangeSkullDuration = 7
 
 -- Connection Config
 -- NOTE: maxPlayers set to 0 means no limit
-ip = "127.0.0.1"
+ip = "92.222.24.37"
 bindOnlyGlobalAddress = false
 loginProtocolPort = 7171
 gameProtocolPort = 7172
@@ -37,9 +37,9 @@ replaceKickOnLogin = true
 maxPacketsPerSecond = 25
 
 -- Version Manual
-clientVersionMin = 1100
-clientVersionMax = 1152
-clientVersionStr = "11.49"
+clientVersionMin = 1000
+clientVersionMax = 1150
+clientVersionStr = "10.00"
 
 -- Depot Limit
 depotBoxes = 17
@@ -82,16 +82,16 @@ maxMarketOffersAtATimePerPlayer = 100
 
 -- MySQL
 mysqlHost = "127.0.0.1"
-mysqlUser = "root"
-mysqlPass = ""
-mysqlDatabase = "global"
+mysqlUser = "bashante"
+mysqlPass = "34xt6xfY"
+mysqlDatabase = "ots"
 mysqlPort = 3306
 mysqlSock = ""
 passwordType = "sha1"
 
 -- Misc.
 allowChangeOutfit = true
-freePremium = false
+freePremium = true
 kickIdlePlayerAfterMinutes = 15
 idleWarningTime = 10 * 60 * 1000
 idleKickTime = 15 * 60 * 1000
@@ -101,7 +101,7 @@ classicEquipmentSlots = false
 allowWalkthrough = true
 coinPacketSize = 25
 coinImagesURL = "http://localhost/store/"
-classicAttackSpeed = false
+classicAttackSpeed = true
 
 -- Rates
 -- NOTE: rateExp is not used if you have enabled stages in data/XML/stages.xml
@@ -134,7 +134,8 @@ defaultPriority = "high"
 startupDatabaseOptimization = true
 
 -- Status server information
-ownerName = "Malucooo"
+ownerName = "Loro"
 ownerEmail = "e_nunes@live.com"
 url = "http://www.facebook.com/erick.nunes.75"
-location = "Brazil"
+location = "France"
+

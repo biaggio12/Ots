@@ -1,4 +1,4 @@
- local keywordHandler = KeywordHandler:new()
+local keywordHandler = KeywordHandler:new()
 local npcHandler = NpcHandler:new(keywordHandler)
 NpcSystem.parseParameters(npcHandler)
 
@@ -8,12 +8,23 @@ function onCreatureSay(cid, type, msg)		npcHandler:onCreatureSay(cid, type, msg)
 function onThink()		npcHandler:onThink()		end
 
 local function creatureSayCallback(cid, type, msg)
-	npcHandler:say('Marriage System is disabled.', cid)
-    return false
+	if not npcHandler:isFocused(cid) then
+		return false
+	end
+local player = Player(cid)
+	if msgcontains(msg, "Angelina") then
+		if player:getStorageValue(Storage.OutfitQuest.SummonerAndMageAddon) == 1 then
+			npcHandler:say("Angelina had been imprisoned? My, these are horrible news, but I am so glad to hear that she is safe now. ...", cid)
+			npcHandler:say("I will happily carry out her wish and reward you, but I fear I need some important ingredients for my blessing spell first...", cid)
+			npcHandler:say("Will you gather them for me?",cid)
+			npcHandler.topic[cid] = 2
+		end
+	end
+    	return true
 end
  
 local function confirmWedding(cid, message, keywords, parameters, node)
-    if(not npcHandler:isFocused(cid)) then
+    if not npcHandler:isFocused(cid) then
         return false
     end
  
@@ -40,9 +51,11 @@ local function confirmWedding(cid, message, keywords, parameters, node)
     end
     return true
 end
+
 		-- END --
-	local function confirmRemoveEngage(cid, message, keywords, parameters, node)
+local function confirmRemoveEngage(cid, message, keywords, parameters, node)
     if(not npcHandler:isFocused(cid)) then
+	local player = Player(cid)
         return false
     end
    
@@ -117,9 +130,10 @@ keywordHandler:addKeyword({'divorce'}, confirmDivorce, {})
 
 --keywordHandler:addKeyword({'celebration'}, confirmwedding,{})
 
-npcHandler:setMessage(MESSAGE_GREET, "Welcome in the name of the gods, pilgrim |PLAYERNAME|!")
+npcHandler:setMessage(MESSAGE_GREET, 'Welcome in the name of the gods, pilgrim |PLAYERNAME|!')
 npcHandler:setMessage(MESSAGE_FAREWELL, "Be careful on your journeys.")
 npcHandler:setMessage(MESSAGE_WALKAWAY, "Be careful on your journeys.")
 
 npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
 npcHandler:addModule(FocusModule:new())
+
