@@ -862,13 +862,6 @@
 	<action itemid="22875" toid="22870" script="other/decayto.lua" />
 
 	
-	<!-- FOOD JEAN PERRI -->
-	
-	<action itemid="9992" script="other/food2.lua" />
-	<action itemid="9993" script="other/food3.lua" />
-	
-	
-	
 	
 	<!-- Food -->
 	<action itemid="6509" script="other/presents.lua" />
@@ -907,7 +900,6 @@
 	<action itemid="8847" script="other/food.lua" />
 	<action itemid="9005" script="other/food.lua" />
 	<action itemid="9114" script="other/food.lua" />
-	<action itemid="9996" script="other/food.lua" />
 	<action itemid="10454" script="other/food.lua" />
 	<action itemid="11246" script="other/food.lua" />
 	<action itemid="11370" script="other/food.lua" />
@@ -927,7 +919,22 @@
 	
 	<action itemid="24841" script="other/food.lua" />
 	
+	<!-- Jean Pierre Dishes -->
+
+	<action itemid="9992" script="other/rotwormstew.lua" />
+	<action itemid="9993" script="other/hydratonguesalad.lua"/>
+	<action itemid="9994" script="other/roasteddragonwings.lua"/>
+	<action itemid="9995" script="other/friedtropicalterrorbird.lua"/>
+	<action itemid="9996" script="other/food.lua"/>
+	<action itemid="9997" script="other/veggiecasserole.lua"/>
+	<action itemid="9998" script="other/filledjalapenopeppers.lua"/>
 	<action itemid="9999" script="other/blessedsteak.lua" />
+	<action itemid="10000" script="other/carrotcake.lua"/>
+	<action itemid="10001" script="other/northernfishburger.lua"/>
+	<action itemid="12540" script="other/coconutshrimpbake.lua"/>
+	<action itemid="12542" script="other/potofblackjack.lua"/>
+	<action itemid="12543" script="other/demoniccandyball.lua"/>
+	<action itemid="12544" script="other/sweetmangonaiseelixir.lua"/>
 
 	<!-- Spellbooks -->
 	<action itemid="2175" script="other/spellbook.lua" />
