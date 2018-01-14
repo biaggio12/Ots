@@ -1047,6 +1047,9 @@ GlobalStorage = {
 	},
 	NaginataStone = 50058,
 	ExpBoost = 51052,
-	SwordOfFury = 5635
-
+	SwordOfFury = 5635,
+	JeanPierreDishes = {
+	UsesOfPot = 0,
+	DishTimer = 0
+	}
 }
