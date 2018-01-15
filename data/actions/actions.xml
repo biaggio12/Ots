@@ -1048,6 +1048,7 @@
 	<action itemid="5468" script="other/firebug.lua" />
 	<action itemid="5928" script="other/catchFish.lua" />
 	
+	<action actionid="9995" script="other/mintwallinLever.lua"/>	
 	<action itemid="6578" script="other/partyhat.lua" />
 	<action itemid="2114" script="other/piggybank.lua" />
 	<action itemid="5957" script="other/lotteryticket.lua" />
