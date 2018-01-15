@@ -3,6 +3,12 @@
 -- Sort it in Values -
 
 Storage = {
+
+	JeanPierreDishes = {
+        UsesOfPot = 0,
+        DishTimer = 5
+	},
+
 	SweetyCyclops = {
 		AmuletTimer = 48,
 		AmuletStatus = 49
@@ -1048,8 +1054,4 @@ GlobalStorage = {
 	NaginataStone = 50058,
 	ExpBoost = 51052,
 	SwordOfFury = 5635,
-	JeanPierreDishes = {
-	UsesOfPot = 3,
-	DishTimer = 0
-	}
 }
