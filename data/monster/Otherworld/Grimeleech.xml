@@ -18,19 +18,19 @@
     		<flag runonhealth="0" />
   	</flags>
   	<attacks>
-    		<attack name="melee" interval="2000" skill="70" attack="80" />
-    		<attack name="melee" interval="2000" chance="2" skill="153" attack="100" />
-    		<attack name="physical" interval="2000" chance="14" range="7" target="1" min="100" max="-565">
+    		<attack name="melee" interval="2000" skill="70" attack="250" />
+    		<attack name="melee" interval="2000" chance="2" skill="153" attack="200" />
+    		<attack name="physical" interval="2000" chance="14" range="7" target="1" min="100" max="565">
       			<attribute key="shootEffect" value="death" />
       			<attribute key="areaEffect" value="mortarea" />
     		</attack>
-    		<attack name="death" interval="2000" chance="12" length="8" spread="0" min="-150" max="-220">
+    		<attack name="death" interval="2000" chance="12" length="8" spread="0" min="150" max="220">
       			<attribute key="areaEffect" value="redspark" />
     		</attack>
-    		<attack name="death" interval="2000" chance="13" radius="4" target="0" min="-225" max="-375">
+    		<attack name="death" interval="2000" chance="13" radius="4" target="0" min="225" max="375">
       			<attribute key="areaEffect" value="redspark" />
     		</attack>
-    		<attack name="physical" interval="2000" chance="9" length="8" spread="3" min="-0" max="-300">
+    		<attack name="physical" interval="2000" chance="9" length="8" spread="3" min="100" max="300">
       			<attribute key="areaEffect" value="explosionarea" />
     		</attack>
   	</attacks>
@@ -49,13 +49,13 @@
     		</defense>
   	</defenses>
   	<elements>
-    		<element energyPercent="-10" />
+    		<element energyPercent="-5" />
     		<element earthPercent="40" />
-    		<element physicalPercent="20" />
-    		<element icePercent="65" />
-    		<element holyPercent="-10" />
-    		<element deathPercent="80" />
-    		<element firePercent="-10" />
+    		<element physicalPercent="0" />
+    		<element icePercent="0" />
+    		<element holyPercent="0" />
+    		<element deathPercent="65" />
+    		<element firePercent="20" />
   	</elements>
   	<immunities>
     		<immunity lifedrain="1" />

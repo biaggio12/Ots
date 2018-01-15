@@ -22,10 +22,10 @@ local config = {
 	[26029] = {mana = {min = 430, max = 550}, vocations = {1, 2}, text = 'sorcerers and druids', level = 130, emptyId = 7635},
 	
 	-- Supreme Health Potion 26031
-	[26031] = {health = {min = 800, max = 950}, vocations = {4}, text = 'knights', level = 200, emptyId = 7635},
+	[26031] = {health = {min = 930, max = 1100}, vocations = {4}, text = 'knights', level = 200, emptyId = 7635},
 	
 	-- Ultimate Spirit Potion 26030
-	[26030] = {health = {min = 400, max = 550}, mana = {min = 140, max = 250}, vocations = {3}, text = 'paladins', level = 130, emptyId = 7635},
+	[26030] = {health = {min = 400, max = 550}, mana = {min = 140, max = 220}, vocations = {3}, text = 'paladins', level = 130, emptyId = 7635},
 	
 	
 	-- antidote potion

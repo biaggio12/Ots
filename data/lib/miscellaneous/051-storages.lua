@@ -1049,7 +1049,7 @@ GlobalStorage = {
 	ExpBoost = 51052,
 	SwordOfFury = 5635,
 	JeanPierreDishes = {
-	UsesOfPot = 0,
+	UsesOfPot = 3,
 	DishTimer = 0
 	}
 }
