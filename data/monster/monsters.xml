@@ -19,10 +19,10 @@
 	<monster file="Dawnport/salamander trainer.xml" name="Salamander Trainer"/>
 	<monster file="Dawnport/troll marauder.xml" name="Troll Marauder"/>		
 	<monster file="Dawnport/muglex clan assassin.xml" name="Muglex Clan Assassin"/>
-    <monster file="Dawnport/muglex clan footman.xml" name="Muglex Clan Footman"/>
-    <monster file="Dawnport/muglex clan scavenger.xml" name="Muglex Clan Scavenger"/>		
+	<monster file="Dawnport/muglex clan footman.xml" name="Muglex Clan Footman"/>
+    	<monster file="Dawnport/muglex clan scavenger.xml" name="Muglex Clan Scavenger"/>		
 	<monster file="Dawnport/troll-trained salamander.xml" name="Troll-Trained Salamander"/>	    
-    <monster file="Dawnport/brittle skeleton.xml" name="Brittle Skeleton"/>
+   	<monster file="Dawnport/brittle skeleton.xml" name="Brittle Skeleton"/>
 	<monster file="Dawnport/dawnfly.xml" name="Dawnfly"/>   
    	<monster file="Dawnport/spidris elitesumom.xml" name="Spidris Elite Sumom"/> 		
    	<monster file="Dawnport/woodling.xml" name="Woodling"/>
